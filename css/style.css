@@ -1,0 +1,155 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Secular+One&display=swap');
+
+h2 {
+  font-family: Secular One;
+  color: black;
+  background-color: white;
+}
+
+h3 {
+  font-family: Secular One;
+  color: black;
+  background-color: white;
+}
+
+h4 {
+  font-family: Secular One;
+  color: black;
+  background-color: white;
+}
+
+body {
+  font-family: Quattrocento;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  background-image: url('learnr.png');
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+p {
+  font-family: Quattrocento;
+  background-color: white;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 180%;
+}
+
+p.caption {
+  font-family: Quattrocento;
+  font-size: 12px;
+  font-color: dimgray
+}
+
+ul {
+  background-color: white;
+}
+
+hr {
+  border: 7px solid gainsboro;
+  border-radius: 0px;
+}
+
+code {
+  background-color: #ececec;
+  color: black;
+  font-family: Roboto Mono;
+}
+
+pre {
+  font-size: 15px;
+}
+
+.pagedtable-wrapper {
+  border-radius: 0px;
+  border-color: white;
+  background-color: #ececec;
+}
+
+a {
+  color: #2166ac;
+}
+
+a:hover {
+  color: #b2182b;
+}
+
+.topics {
+    width: 75%;
+    overflow-x: auto;
+    padding-bottom: 600px;
+    border-color: white;
+    padding-left: 20px;
+}
+
+.topicsList .topic {
+  font-family: Quattrocento;
+  font-weight: bold;
+  border-color: gainsboro;
+  background-color: white;
+  border-left: none;
+  padding-left: 10px;
+}
+
+.topicsList .topic.current {
+  border-color: white;
+  color: white;
+}
+
+.topicsList .topic:hover {
+  background-color: #b2182b;
+  color: #e7d4e8;
+}
+
+.pageContent {
+  padding-top: 30px;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.btn-primary {
+    background-color: #424242;
+    color: white;
+    font-family: Secular One;
+    font-size: 16px;
+}
+
+.btn, .btn-success, .btn-xs, .btn-tutorial-run, .pull-right {
+  background-color: #b2182b;
+  color: white;
+  font-family: Secular One;
+}
+
+.btn-default {
+    background-color: #424242;
+    color: white;
+    font-family: Secular One;
+    font-size: 16px;
+}
+
+.btn-tutorial-solution {
+  border: none;
+}
+
+
+.btn-tutorial-solution:hover {
+  background-color: #2166ac;
+  color:white;
+  font-family: Secular One;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:focus:active, .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success:focus:active, .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info:focus:active, .btn-default:hover {
+    background-color: #2166ac;
+    color: white;
+    font-family: Secular One;
+}

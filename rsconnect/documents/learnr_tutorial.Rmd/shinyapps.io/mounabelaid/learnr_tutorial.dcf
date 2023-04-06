@@ -1,0 +1,13 @@
+name: learnr_tutorial
+title: learnr_tutorial
+username:
+account: mounabelaid
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8773696
+bundleId: 7058218
+url: https://mounabelaid.shinyapps.io/learnr_tutorial/
+when: 1680802114.20637
+lastSyncTime: 1680802114.20638
+asMultiple: FALSE
+asStatic: FALSE
