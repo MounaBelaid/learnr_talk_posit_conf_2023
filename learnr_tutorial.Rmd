@@ -5,8 +5,6 @@ author: "Author: Mouna Belaid"
 date: "September 2023"
 output: 
   learnr::tutorial:
-    includes:
-      in_header: header.html
     css: css/style.css
 runtime: shiny_prerendered
 ---
