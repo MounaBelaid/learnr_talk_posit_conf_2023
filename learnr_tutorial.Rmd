@@ -108,7 +108,7 @@ plt.show()
 
 ### Visualize the number of films of feminine character
 
-Determine the type of the films column 
+Determine the type of the films column.
 
 ```{r class, exercise=TRUE, exercise.setup="dataset"}
 class(starwars_human_r$films)

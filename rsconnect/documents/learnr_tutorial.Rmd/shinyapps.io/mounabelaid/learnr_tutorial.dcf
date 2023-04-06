@@ -5,9 +5,9 @@ account: mounabelaid
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8773696
-bundleId: 7059422
+bundleId: 7059491
 url: https://mounabelaid.shinyapps.io/learnr_tutorial/
-when: 1680822117.07221
-lastSyncTime: 1680822117.07224
+when: 1680823560.99438
+lastSyncTime: 1680823560.9944
 asMultiple: FALSE
 asStatic: FALSE
