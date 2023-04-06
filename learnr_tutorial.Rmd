@@ -11,7 +11,7 @@ runtime: shiny_prerendered
 
 ## 1. Set up Python in RStudio
 
-Set a default Python interpreter in the RStudio IDE Global
+Set a default Python interpreter in the RStudio IDE Global.
 
 ```{r, echo=FALSE, out.width="100%", fig.align="center"}
 knitr::include_graphics("www/python.png") 
@@ -95,7 +95,7 @@ ggplot(data = py$starwars_human_py, aes(x = sex)) + geom_bar(width = 0.5, fill =
 
 ### Create a density plot using matplotlib in Python
 
-Let's create a density plot using the `matplotlib` library in Python
+Let's create a density plot using the `matplotlib` library in Python.
 
 ```{r, echo=FALSE, out.width="60%", fig.align="center"}
 knitr::include_graphics("www/densityplot_py.png") 
@@ -113,6 +113,8 @@ Determine the type of the films column
 ```{r class, exercise=TRUE, exercise.setup="dataset"}
 class(starwars_human_r$films)
 ```
+
+Let's visualize the number of films of feminine character. Complete the code.
 
 ```{r r_bar_3, exercise=TRUE, exercise.setup="dataset"}
 ggplot(data = starwars_human_r %>% 
